@@ -7,5 +7,5 @@ test('Check message header', async t => {
    const messageHeader = Selector('#message');
 
    await t
-       .expect(messageHeader.innerText).contains('Hello World', 'message header contains text "Hello World"');
+       .expect(messageHeader.innerText).contains('Free Donuts', 'message header contains text "Free Donuts"');
 });
